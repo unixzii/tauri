@@ -1,5 +1,14 @@
 # Changelog
 
+## \[1.0.1]
+
+- Set the bundle name in the Info.plist file in development mode.
+  - Bumped due to a bump in tauri-codegen.
+  - [7be997b9](https://www.github.com/tauri-apps/tauri/commit/7be997b97433fc24b9a2c1872490c57e6e77376b) feat(core): set macOS app bundle name in development ([#4381](https://www.github.com/tauri-apps/tauri/pull/4381)) on 2022-06-17
+- Set the application icon in development mode on macOS.
+  - Bumped due to a bump in tauri-codegen.
+  - [307c2ebf](https://www.github.com/tauri-apps/tauri/commit/307c2ebfb68238dacab6088f9c6ba310c727c68c) feat(core): set macOS app icon in development ([#4385](https://www.github.com/tauri-apps/tauri/pull/4385)) on 2022-06-19
+
 ## \[1.0.0]
 
 - Upgrade to `stable`!

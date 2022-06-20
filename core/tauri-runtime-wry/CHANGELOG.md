@@ -1,5 +1,12 @@
 # Changelog
 
+## \[0.9.1]
+
+- The theme API is now implemented on macOS 10.14+.
+  - [6d94ce42](https://www.github.com/tauri-apps/tauri/commit/6d94ce42353204a02fe9c82ed397d349439f75ef) feat(core): theme is now implemented on macOS ([#4380](https://www.github.com/tauri-apps/tauri/pull/4380)) on 2022-06-17
+- Fixes deadlocks when using window setters in the main thread.
+  - [123f6e69](https://www.github.com/tauri-apps/tauri/commit/123f6e69f60ca6d4b2fd738ca3ff5cf016d8e814) fix(tauri-runtime-wry): release windows lock immediately, closes [#4390](https://www.github.com/tauri-apps/tauri/pull/4390) ([#4392](https://www.github.com/tauri-apps/tauri/pull/4392)) on 2022-06-19
+
 ## \[0.9.0]
 
 - Upgrade to `stable`!

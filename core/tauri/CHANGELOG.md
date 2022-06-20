@@ -1,5 +1,18 @@
 # Changelog
 
+## \[1.0.1]
+
+- Added `fn new` constructors for `PhysicalSize`, `LogicalSize`, `PhysicalPosition` and `LogicalPosition` and missing conversion methods.
+  - [c7d13a1c](https://www.github.com/tauri-apps/tauri/commit/c7d13a1c60cdbe0c42834ea059321d7a3a7f01a0) feat(core): add missing methods to the dpi module ([#4393](https://www.github.com/tauri-apps/tauri/pull/4393)) on 2022-06-19
+- Set the bundle name in the Info.plist file in development mode.
+  - [7be997b9](https://www.github.com/tauri-apps/tauri/commit/7be997b97433fc24b9a2c1872490c57e6e77376b) feat(core): set macOS app bundle name in development ([#4381](https://www.github.com/tauri-apps/tauri/pull/4381)) on 2022-06-17
+- Set the application icon in development mode on macOS.
+  - [307c2ebf](https://www.github.com/tauri-apps/tauri/commit/307c2ebfb68238dacab6088f9c6ba310c727c68c) feat(core): set macOS app icon in development ([#4385](https://www.github.com/tauri-apps/tauri/pull/4385)) on 2022-06-19
+- Fixes the error message when using the `window.unminimize` API without enabling it in the allowlist.
+  - [cbceb7d6](https://www.github.com/tauri-apps/tauri/commit/cbceb7d6cf7c9ee8c093e81d8569285ef3ca5fe3) fix: some typos ([#4403](https://www.github.com/tauri-apps/tauri/pull/4403)) on 2022-06-19
+- The theme API is now implemented on macOS 10.14+.
+  - [6d94ce42](https://www.github.com/tauri-apps/tauri/commit/6d94ce42353204a02fe9c82ed397d349439f75ef) feat(core): theme is now implemented on macOS ([#4380](https://www.github.com/tauri-apps/tauri/pull/4380)) on 2022-06-17
+
 ## \[1.0.0]
 
 - Allow choosing multiple folders in `dialog.open`.
